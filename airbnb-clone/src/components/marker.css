@@ -1,0 +1,13 @@
+.marker {
+    background-color: linen;
+    border: 2px solid black;
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+    padding: 2px 5px;
+}
+
+.selectedMarker {
+    background-color: blue;
+    color: white;
+}

@@ -1,5 +1,9 @@
 .flat {
     margin: 10px;
+    cursor: pointer;
+}
+.flat :hover {
+    opacity: 85%;
 }
 .flat-picture {
     height: 200px;
@@ -9,4 +13,8 @@
 .flat-title {
     margin-top: 5px; 
     padding: 5px 20px;
+}
+
+.selectedFlat {
+    border: 5px solid red;
 }
