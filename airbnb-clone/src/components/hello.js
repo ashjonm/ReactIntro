@@ -5,3 +5,5 @@ class Hello extends React.Component {
         return <div>Hello from hello.js</div>
     }
 }
+
+export default Hello;
