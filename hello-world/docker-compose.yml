@@ -1,0 +1,11 @@
+version: '3'
+
+services: 
+  hello-world: 
+    image: node:14-alpine
+    working_dir: /dev
+    command: npm start
+    ports: 
+      - 3001:3000
+    volumes: 
+      - ./:/dev:rw
